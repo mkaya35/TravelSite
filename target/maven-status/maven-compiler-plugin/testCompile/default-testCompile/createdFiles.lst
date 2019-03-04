@@ -1,0 +1,8 @@
+com\mycompany\tests\LoginTest.class
+com\mycompany\tests\TestBaseER.class
+com\mycompany\tests\JavaPropertiesFile.class
+com\mycompany\tests\ReadWriteExcel.class
+com\mycompany\tests\TestBase.class
+com\mycompany\tests\ShopPageTest.class
+com\mycompany\tests\DataDrivenTest.class
+com\mycompany\tests\HomePageTest.class

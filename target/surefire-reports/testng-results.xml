@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyCompanyTestSuite" duration-ms="105715" started-at="2018-09-07T20:22:43Z" finished-at="2018-09-07T20:24:29Z">
+    <groups>
+    </groups>
+    <test name="ShopPageTest" duration-ms="74225" started-at="2018-09-07T20:22:43Z" finished-at="2018-09-07T20:23:57Z">
+      <class name="com.mycompany.tests.ShopPageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="14364" started-at="2018-09-07T20:22:45Z" finished-at="2018-09-07T20:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testApplyingSortOrder(java.lang.String)[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="testApplyingSortOrder" duration-ms="5345" started-at="2018-09-07T20:22:59Z" data-provider="dataProvider" finished-at="2018-09-07T20:23:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sort by average rating]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyingSortOrder -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="afterMethod" is-config="true" duration-ms="5852" started-at="2018-09-07T20:23:05Z" finished-at="2018-09-07T20:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="9676" started-at="2018-09-07T20:23:11Z" finished-at="2018-09-07T20:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testApplyingSortOrder(java.lang.String)[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="testApplyingSortOrder" duration-ms="5715" started-at="2018-09-07T20:23:20Z" data-provider="dataProvider" finished-at="2018-09-07T20:23:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sort by newness]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyingSortOrder -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="afterMethod" is-config="true" duration-ms="8011" started-at="2018-09-07T20:23:26Z" finished-at="2018-09-07T20:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="7067" started-at="2018-09-07T20:23:34Z" finished-at="2018-09-07T20:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testApplyingSortOrder(java.lang.String)[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="testApplyingSortOrder" duration-ms="4544" started-at="2018-09-07T20:23:41Z" data-provider="dataProvider" finished-at="2018-09-07T20:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sort by price: high to low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyingSortOrder -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.ShopPageTest@15d0c81b]" name="afterMethod" is-config="true" duration-ms="11857" started-at="2018-09-07T20:23:46Z" finished-at="2018-09-07T20:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mycompany.tests.ShopPageTest -->
+    </test> <!-- ShopPageTest -->
+    <test name="LoginTests" duration-ms="94239" started-at="2018-09-07T20:22:43Z" finished-at="2018-09-07T20:24:17Z">
+      <class name="com.mycompany.tests.LoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="beforeMethod" is-config="true" duration-ms="13382" started-at="2018-09-07T20:22:45Z" finished-at="2018-09-07T20:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSuccessfulLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="testSuccessfulLogin" duration-ms="8819" started-at="2018-09-07T20:22:58Z" data-provider="dataProvider" finished-at="2018-09-07T20:23:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SeleniumTestAccount1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="afterMethod" is-config="true" duration-ms="6958" started-at="2018-09-07T20:23:07Z" finished-at="2018-09-07T20:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="beforeMethod" is-config="true" duration-ms="11286" started-at="2018-09-07T20:23:14Z" finished-at="2018-09-07T20:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSuccessfulLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="testSuccessfulLogin" duration-ms="7417" started-at="2018-09-07T20:23:25Z" data-provider="dataProvider" finished-at="2018-09-07T20:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rsivri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SeleniumTestAccount1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="afterMethod" is-config="true" duration-ms="9373" started-at="2018-09-07T20:23:33Z" finished-at="2018-09-07T20:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="beforeMethod" is-config="true" duration-ms="14014" started-at="2018-09-07T20:23:42Z" finished-at="2018-09-07T20:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSuccessfulLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="testSuccessfulLogin" duration-ms="10530" started-at="2018-09-07T20:23:56Z" data-provider="dataProvider" finished-at="2018-09-07T20:24:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SeleniumTestAccount1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.LoginTest@4f063c0a]" name="afterMethod" is-config="true" duration-ms="10665" started-at="2018-09-07T20:24:07Z" finished-at="2018-09-07T20:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mycompany.tests.LoginTest -->
+    </test> <!-- LoginTests -->
+    <test name="HomePageTest" duration-ms="105715" started-at="2018-09-07T20:22:43Z" finished-at="2018-09-07T20:24:29Z">
+      <class name="com.mycompany.tests.HomePageTest">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="beforeSuit" is-config="true" duration-ms="20" started-at="2018-09-07T20:22:43Z" finished-at="2018-09-07T20:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="beforeMethod" is-config="true" duration-ms="15817" started-at="2018-09-07T20:22:43Z" finished-at="2018-09-07T20:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateButton()[pri:1, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="validateButton" duration-ms="1218" started-at="2018-09-07T20:22:59Z" finished-at="2018-09-07T20:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="6913" started-at="2018-09-07T20:23:00Z" finished-at="2018-09-07T20:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="afterMethod" is-config="true" duration-ms="6043" started-at="2018-09-07T20:23:07Z" finished-at="2018-09-07T20:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="beforeMethod" is-config="true" duration-ms="9327" started-at="2018-09-07T20:23:13Z" finished-at="2018-09-07T20:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateAbout()[pri:2, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="validateAbout" duration-ms="10747" started-at="2018-09-07T20:23:23Z" finished-at="2018-09-07T20:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAbout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="7905" started-at="2018-09-07T20:23:33Z" finished-at="2018-09-07T20:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="afterMethod" is-config="true" duration-ms="5535" started-at="2018-09-07T20:23:41Z" finished-at="2018-09-07T20:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="beforeMethod" is-config="true" duration-ms="15948" started-at="2018-09-07T20:23:47Z" finished-at="2018-09-07T20:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateMyAccount()[pri:3, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="validateMyAccount" duration-ms="14066" started-at="2018-09-07T20:24:03Z" finished-at="2018-09-07T20:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="6627" started-at="2018-09-07T20:24:17Z" finished-at="2018-09-07T20:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.HomePageTest@1b68ddbd]" name="afterMethod" is-config="true" duration-ms="5517" started-at="2018-09-07T20:24:23Z" finished-at="2018-09-07T20:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mycompany.tests.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- MyCompanyTestSuite -->
+</testng-results>
